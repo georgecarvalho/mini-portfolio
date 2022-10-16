@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="./src/img/favicon.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="./src/img/favicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./src/img/favicon.png" sizes="96x96">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portfólio</title>
+</head>
+<body>
+    <main class="cartao">
+
+        <div class="minhas-informacoes">
+
+            <img src="./src/img/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">George Sanders</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
+
+        </div>
+
+        <div class="conteudo">
+
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/img/sobre.gif" alt="ícone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/img/coracao.gif" alt="ícone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>
+                            Oi! meu nome é George Sanders, seja bem-vindo(a)!
+                        </p>
+                        <p>
+                            Sou acadêmico de Sistemas de Informação no IFMA. 
+                            Já atuei como estagiário de Desenvolvimento do TCE-MA, utilizando <span>PHP</span> e 
+                            <span>JavaScript</span>, com Banco de Dados <span>MySQL</span> e versionamento de código pelo <span>Git</span>. 
+                            Também possuo competências em <span>Java</span>, <span>Python</span> e <span>React</span>.
+                            Meus principais hobbies são assistir a jogos de futebol, jogar e assistir games (streamings)
+                             e acompanhar canais de ciência no YouTube.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://drive.google.com/file/d/1cvEfsgttYU54ZwCffpvbeLo_tIO3dn_T/view?usp=sharing" target="_blank" class="curriculo">Currículo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/gscaraujo/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/georgecarvalho" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
