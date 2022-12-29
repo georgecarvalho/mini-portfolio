@@ -13,6 +13,8 @@ Na segunda aba, links para o **Currículo**, **GitHub** e o **LinkedIn**.
 
 ![Web 2](/src/img/web2.png)
 
+# Tecnologias utilizadas
+
 ## Front end
 - HTML / CSS / JS
 
